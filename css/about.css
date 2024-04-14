@@ -1,0 +1,1128 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+a{
+    text-decoration: none !important;
+    display: inline-block;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* nav part start */
+.menu{
+    background-color: #1C1E53;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.menu ul{
+    padding-top: 8px !important;
+}
+.menu ul li{
+    padding-left: 32px !important;
+}
+.menu ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #BBBBCB !important;
+}
+.menu .menu-btn a{
+    padding: 16px 48px !important;
+    border: 2px solid rgba(244, 246, 252, 0.20) !important;
+    background-color: #FCD980;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #1B1C2B !important;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+.menu .menu-btn a:hover{
+    background-color: transparent;
+    color: #fff !important;
+}
+.sidebar{
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    padding-left: 10px;
+}
+.offcanvas-header{
+    color: white;
+}
+.btn-close {
+    --bs-btn-close-bg: none
+}
+.btn-close i{
+    color: white !important;
+    font-size: 20px;
+}
+.offcanvas-title{
+    padding-left: 130px;
+    border-bottom: 1px solid #BBBBCB !important;
+    width: 100%;
+    padding-top: 10px;
+}
+.navbar-toggler-icon{
+    font-size: 28px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+/* nav part end */
+
+
+/* about part start */
+.about_left{
+    margin-top: 152px;
+}
+.about_left h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+}
+.about_left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #282938;
+}
+.about_left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 8px;
+}
+.about_right{
+    margin-top: 128px;
+}
+.about_right img{
+    width: 100%;
+}
+/* about part end */
+
+
+/* who part start */
+#who{
+    margin-top: 128px;
+}
+.who_left h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+}
+.who_left h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+.who_left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 8px;
+}
+.who_right h2{
+    padding-top: 27px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+.who_right p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 8px;
+}
+.who_down{
+    margin-top: 80px;
+}
+.who_down img{
+    width: 100%;
+}
+/* who part end */
+
+
+/* process part start */
+#process{
+    margin-top: 128px;
+}
+.process_top h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+}
+.circle{
+    height: 24px;
+    width: 24px;
+    background-color: #2405F2;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+}
+.circle::after{
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    border: 2px dotted #2405F2;
+    width: 224px;
+    opacity: 0.4;
+}
+.process_card_one{
+    margin-top: 48px;
+}
+.process_card_one h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    padding-top: 32px;
+}
+.process_card_one p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    padding-top: 8px;
+    opacity: 0.7;
+}
+/* process part end */
+
+
+/* mission part start */
+#mission{
+    margin-top: 128px;
+    padding: 128px 0;
+    background-color: #EEF4FA;
+}
+.mission_top_left h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    padding-top: 54px;
+}
+.mission_top_left h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+.mission_top_left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+.misson_top_right img{
+    width: 100%;
+}
+.misson_down_left img{
+    width: 100%;
+}
+.misson_down_left{
+    margin-top: 96px;
+}
+.mission_down_right{
+    margin-top: 149px;
+}
+.mission_down_right h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    padding-top: 54px;
+}
+.mission_down_right h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+.mission_down_right p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 8px;
+}
+/* mission part end */
+
+
+/* benefit part start */
+#benefit{
+    margin-top: 128px;
+    background-color: white;
+    padding-bottom: 128px;
+}
+.benefit_top h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+}
+.benefit_card_one{
+    margin-top: 48px;
+    padding: 50px 32px 48px 48px;
+    background-color: #F4F6FC;
+}
+.benefit_card_one img{
+    height: 32px;
+    width: 32px;
+}
+.benefit_card_one h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    padding-top: 26px;
+}
+.benefit_card_one p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 8px;
+}
+.benefit_down_one{
+    margin-top: 48px;
+}
+.benefit_down_one h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+.benefit_down_one p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.benefit_down_one img{
+    width: 100%;
+    padding-top: 28px;
+}
+/* benefit part end */
+
+
+/* team part start */
+#team{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+}
+.team_top h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+}
+.team_card_one{
+    padding: 48px 64px 32px 64px;
+    background-color: white;
+    margin-top: 48px;
+    position: relative;
+}
+.team_card_one img{
+    height: 168px;
+    width: 168px;
+}
+.icon_card_one{
+    position: absolute;
+    top: 48px;
+    left: 64px;
+    background: linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%);
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding-top: 128px;
+    padding-left: 34px;
+    opacity: 0;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+.icon_card_one i{
+    padding-left: 11px;
+}
+.icon_card_one:hover{
+    opacity: 1;
+}
+.team_card_one h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #1D2130;
+    text-align: center;
+    padding-top: 30px;
+}
+.team_card_one p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1D2130;
+    text-align: center;
+    padding-top: 2px;
+}
+/* team part end */
+
+
+/* footer part start */
+#footer{
+    padding-top: 96px;
+    background-color: #1C1E53;
+}
+.footer_left{
+    padding-top: 4px;
+}
+.footer_left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+    opacity: 0.8;
+    padding-top: 22px;
+}
+.footer_left_down_left{
+    margin-top: 86px;
+    padding: 18px 0px 16px 37px;
+    background-color: #FCD980;
+}
+.footer_left_down_left h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+}
+.footer_left_down_left a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+}
+.footer_left_down_right{
+    margin-top: 86px;
+    padding: 18px 0px 16px 37px;
+    background-color: #FCD980;
+}
+.footer_left_down_right h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+}
+.footer_left_down_right a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+}
+.footer_right h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #fff;
+}
+.footer_right p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.8;
+    padding-top: 8px;
+}
+.footer_icon{
+    padding-top: 28px;
+    margin-left: -26px;
+    padding-bottom: 10px;
+}
+.footer_icon i{
+    padding-left: 26px;
+}
+/* footer part end */
+
+
+/* ending part start */
+#copyright{
+    background-color: #fff;
+    padding-top: 32px;
+    padding-bottom: 6px;
+}
+.copyright_left a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+}
+.copyright_right ul{
+    display: flex;
+    margin-left: -32px;
+}
+.copyright_right ul li{
+    padding-left: 32px;
+}
+.copyright_right ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+}
+/* ending part end */
+
+
+/* responsive part start */
+@media (min-width:300px) and (max-width:575.98px) {
+      /* nav part start */
+      .menu ul li a {
+        color: #fff !important;
+    }
+    /* nav part end */
+    
+    /* about part start */
+    .about_left {
+        margin-top: 30px;
+    }
+    .about_left h6 {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+      .about_left h1 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .about_left p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 0px;
+    }
+    .about_right {
+        margin-top: 10px;
+    }
+    /* about part end */
+
+    /* who part start */
+    #who {
+        margin-top: 30px;
+    }
+    .who_left h6 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .who_left h2 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .who_left p{
+        padding-top: 0px;
+        list-style: 26px;
+    }
+    .who_right h2{
+        line-height: 1.2;
+        padding-top: 16px;
+        font-size: 26px;
+    }
+    .who_right p{
+        padding-top: 0px;
+        line-height: 26px;
+    }
+    .who_down {
+        margin-top: 16px;
+    }
+    /* who part end */
+
+    /* process part start */
+    #process {
+        margin-top: 30px;
+    }
+    .process_top h2 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .process_card_one {
+        margin-top: 16px;
+    }
+    .circle::after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 38px;
+        border: 2px dotted #2405F2;
+        width: 170px;
+        opacity: 0.4;
+    }
+    .process_card_one h5 {
+        padding-top: 10px;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .process_card_one p {
+        line-height: 26px;
+        padding-top: 4px;
+    }
+    /* process part end */
+
+    /* mission part start */
+    #mission {
+        margin-top: 30px;
+        padding: 30px 0;
+    }
+    .mission_top_left h6 {
+        text-align: center;
+        line-height: 26px;
+        padding-top: 0px;
+    }
+    .mission_top_left h2 {
+        font-size: 26px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .mission_top_left p {
+        line-height: 26px;
+        padding-top: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .misson_down_left {
+        margin-top: 20px;
+    }
+    .mission_down_right {
+        margin-top: 0px;
+    }
+    .mission_down_right h6 {
+        padding-top: 30px;
+        line-height: 26px;
+    }
+    .mission_down_right h2 {
+        line-height: 1.2;
+        font-size: 26px;
+    }
+    .mission_down_right p {
+        line-height: 26px;
+        padding-top: 0px;
+    }
+    /* mission part end */
+
+    /* benefit part start */
+    #benefit {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .benefit_top h2 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .benefit_card_one {
+        margin-top: 16px;
+    }
+    .benefit_down_one {
+        margin-top: 12px;
+    }
+    .benefit_card_one {
+        padding: 32px 24px 32px 32px;
+    }
+    .benefit_card_one h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #282938;
+        padding-top: 10px;
+    }
+    .benefit_card_one p {
+        line-height: 26px;
+        padding-top: 5px;
+    }
+    .benefit_down_one h2 {
+        padding-top: 20px;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    /* benefit part end */
+
+    /* team part start */
+    #team {
+        padding: 30px 0;
+    }
+    .team_top h2 {
+        font-size: 26px;
+        line-height: 1.2;
+    }
+    .team_card_one {
+        padding: 21px 16px 21px 20px;
+        margin-top: 12px;
+    }
+    .icon_card_one {
+        position: absolute;
+        top: 22px;
+        left: 20px;
+        height: 125px;
+        width: 125px;
+        padding-top: 84px;
+        padding-left: 12px;
+        opacity: 1;
+    }
+    .team_card_one img {
+        height: 125px;
+        width: 125px;
+    }
+    /* team part end */
+
+     /* footer part start */
+  #footer {
+    padding-top: 26px;
+}
+.footer_left {
+  padding-top: 0px;
+}
+.footer_left p {
+  padding-top: 0;
+  line-height: 26px;
+}
+.footer_left_down_left {
+  margin-top: 12px;
+  padding: 25px 0px 10px 11px;
+}
+.footer_left_down_right {
+  margin-top: 12px;
+  padding: 20px 0px 10px 27px;
+  background-color: #FCD980;
+}
+.footer_left_down_left {
+  padding: 20px 0px 10px 7px;
+}
+.footer_left_down_left h5 {
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer_left_down_left a {
+  font-size: 14px;
+  line-height: 26px;
+}
+.footer_left_down_right h5 {
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer_left_down_right a {
+  font-size: 14px;
+  line-height: 26px;
+}
+.footer_right h3 {
+  line-height: 1.2;
+  font-size: 26px;
+  padding-top: 4px;
+}
+.footer_right p{
+  padding-top: 0;
+    line-height: 26px;
+}
+.footer_icon {
+    padding-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+}
+/* footer part end */
+
+/* ending part start */
+.copyright_right ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -46px;
+}
+.copyright_right ul li  {
+  padding-left: 18px;
+}
+.copyright_right ul li a{
+  line-height: 26px;
+}
+.copyright_left{
+    text-align: center;
+}
+/* ending part end */
+}
+@media (min-width:576px) and (max-width:767.98px) {
+      /* nav part start */
+      .menu ul li a {
+        color: #fff !important;
+    }
+    /* nav part end */
+    
+    /* about part start */
+    .about_left {
+        margin-top: 60px;
+      }
+      .about_left h1 {
+        font-size: 48px;
+        line-height: 63px;
+    }
+    .about_right {
+        margin-top: 60px;
+    }
+    /* about part end */
+
+    /* who part start */
+    #who {
+        margin-top: 60px;
+    }
+    .who_left p{
+        padding-top: 0px;
+    }
+    .who_right h2{
+        line-height: 46px;
+    }
+    .who_right p{
+        padding-top: 0px;
+    }
+    .who_down {
+        margin-top: 30px;
+    }
+    /* who part end */
+
+    /* process part start */
+    #process {
+        margin-top: 60px;
+    }
+    .process_top h2 {
+        font-size: 40px;
+        line-height: 51px;
+    }
+    .process_card_one {
+        margin-top: 30px;
+    }
+    .circle::after {
+        width: 190px;
+    }
+    .process_card_one h5 {
+        padding-top: 16px;
+    }
+    /* process part end */
+
+    /* mission part start */
+    #mission {
+        margin-top: 30px;
+        padding: 30px 0;
+    }
+    .mission_top_left h6 {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .mission_top_left h2 {
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .mission_top_left p {
+        line-height: 26px;
+        padding-top: 0px;
+        text-align: center;
+        padding-bottom: 8px;
+    }
+    .misson_down_left {
+        margin-top: 20px;
+    }
+    .mission_down_right {
+        margin-top: 0px;
+    }
+    .mission_down_right h6 {
+        padding-top: 46px;
+    }
+    .mission_down_right h2 {
+        line-height: 36px;
+    }
+    /* mission part end */
+
+    /* benefit part start */
+    #benefit {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .benefit_top h2 {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .benefit_card_one {
+        margin-top: 26px;
+        padding: 25px 8px 25px 25px;
+        background-color: #F4F6FC;
+    }
+    .benefit_card_one h4 {
+        padding-top: 14px;
+    }
+    .benefit_card_one p {
+        line-height: 27px;
+        padding-top: 4px;
+    }
+    .benefit_down_one {
+        margin-top: 12px;
+    }
+    /* benefit part end */
+
+    /* team part start */
+    #team {
+        padding: 30px 0;
+    }
+    .team_card_one {
+        padding: 21px 16px 21px 20px;
+        margin-top: 12px;
+    }
+    .icon_card_one {
+        position: absolute;
+        top: 22px;
+        left: 20px;
+        height: 125px;
+        width: 125px;
+        padding-top: 84px;
+        padding-left: 12px;
+        opacity: 1;
+    }
+    .team_card_one img {
+        height: 125px;
+        width: 125px;
+    }
+    /* team part end */
+
+       /* footer part start */
+  #footer {
+    padding-top: 26px;
+}
+.footer_left {
+    padding-top: 0px;
+  }
+  .footer_left p {
+    padding-top: 0;
+    line-height: 26px;
+  }
+  .footer_left_down_left {
+    margin-top: 12px;
+      padding: 10px 0px 5px 37px;
+  }
+  .footer_left_down_right {
+    margin-top: 12px;
+      padding: 10px 0px 10px 37px;
+      background-color: #FCD980;
+  }
+  .footer_left_down_left h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footer_left_down_left a {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .footer_left_down_right h5 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .footer_left_down_right a {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .footer_right h3 {
+    line-height: 1.2;
+    font-size: 26px;
+    padding-top: 4px;
+  }
+  .footer_right p{
+    padding-top: 0;
+      line-height: 26px;
+  }
+  .footer_icon {
+    padding-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+}
+  /* footer part end */
+
+  /* ending part start */
+  #copyright {
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+  .copyright_right ul {
+      margin-left: 44px;
+  }
+  .copyright_right ul li {
+      padding-left: 12px;
+  }
+  .copyright_left{
+      text-align: center;
+  }
+  /* ending part end */
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+    /* nav part start */
+    .menu .menu-btn a {
+        padding: 16px 33px !important;
+        margin-left: -20px;
+    }
+    /* nav part end */
+
+      /* about part start */
+      .who_right h2 {
+        padding-top: 0px;
+        margin-top: -30px;
+    }
+    /* about part end */
+
+    /* process part start */
+    .circle::after {
+        width: 150px;
+    }
+    /* process part end */
+
+    /* benefit part start */
+    .benefit_down_one {
+        padding-left: 10px;
+    }
+    .benefit_down_one a{
+        padding-left: 20px;
+    }
+    /* benefit part end */
+
+    /* team part start */
+    .team_top h2 {
+        width: 370px;
+    }
+    .team_card_one {
+        padding: 21px 21px 40px 21px;
+    }
+    .icon_card_one {
+        top: 22px;
+        left: 22px;
+    }
+    /* team part end */
+
+    /* ending part start */
+    .copyright_left a {
+        width: 238px;
+    }
+    .copyright_right ul {
+      margin-left: -84px;
+  }
+  .copyright_right ul li {
+      padding-left: 17px;
+  }
+  .copyright_left{
+      text-align: center;
+  }
+  /* ending part end */
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+    /* about part start */
+    .who_right h2 {
+        padding-top: 0px;
+        margin-top: -30px;
+    }
+    /* about part end */
+
+    /* benefit part start */
+    .benefit_card_one h4 {
+        width: 300px;
+    }
+    /* benefit part end */
+
+    /* team part start */
+    .team_top h2 {
+        width: 500px;
+    }
+    .team_card_one {
+        padding: 48px 64px 32px 45px;
+    }
+    .icon_card_one {
+        left: 45px;
+    }
+    /* team part end */
+
+  /* ending part start */
+  .copyright_right ul {
+    margin-left: -58px;
+}
+.copyright_right ul li {
+    padding-left: 27px;
+}
+/* ending part end */
+}
+/* responsive part end */
+
+
+/* This About part is finished */
