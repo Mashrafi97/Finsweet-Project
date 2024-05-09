@@ -358,7 +358,7 @@ ul{
 
 
 /* responsive part start */
-@media (min-width:300px) and (max-width:575.98px) {
+@media(max-width:575.98px) {
     /* nav part start */
     .menu ul li a {
         color: #fff !important;
